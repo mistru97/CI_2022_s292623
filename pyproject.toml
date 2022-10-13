@@ -1,0 +1,23 @@
+[tool.black]
+exclude = "(^\\.|^__pycache__)"
+include = "(\\.py$|\\.ipynb$)"
+#include = "\\.ipynb"
+line-length = 120
+
+[tool.poetry]
+name = "ci22_s292623"
+version = "0.1.0"
+description = "Code of CI laboratories"
+authors = ["Luca Mistruzzi <s292623@studenti.polito.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+numpy = "^1.23.4"
+black = "^22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
