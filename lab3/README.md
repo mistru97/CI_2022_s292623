@@ -33,3 +33,11 @@ The fitness of the algorithm is the average winrate of ```K=10``` evaluations. A
 
 Result:
 - ```best param: {'change_strat_p': 0.7606715804580229, 'reduce_row_p': 0.9323175433902825}, wr: 96.5```
+
+## Task3:
+Implemented minmax algorithm with alpha beta pruning
+
+Result:
+- ```minmax player won vs random strategy 58.5% of matches```
+
+The result is not good if we consider that is between 50-60% of wr versus a random opponent.
